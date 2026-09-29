@@ -1,0 +1,121 @@
+
+ticket_id,ticket_text,issue_category,priority
+TKT001,"User cannot connect to corporate VPN from office laptop",VPN Connectivity,High
+TKT002,"VPN connection keeps disconnecting every few minutes",VPN Connectivity,High
+TKT003,"Unable to establish VPN connection after entering credentials",VPN Connectivity,High
+TKT004,"VPN client shows connection failed error",VPN Connectivity,Medium
+TKT005,"Remote employee cannot access company VPN",VPN Connectivity,High
+
+TKT006,"Password reset required because user forgot login password",Password Reset,Medium
+TKT007,"User forgot their enterprise account password",Password Reset,Medium
+TKT008,"Unable to reset password through self service portal",Password Reset,High
+TKT009,"Password reset link is not working",Password Reset,Medium
+TKT010,"Account password has expired and user cannot login",Password Reset,High
+
+TKT011,"Employee cannot login to corporate email",Email Issue,High
+TKT012,"Outlook is not sending or receiving emails",Email Issue,High
+TKT013,"Email application crashes when opening mailbox",Email Issue,Medium
+TKT014,"User is not receiving new emails",Email Issue,High
+TKT015,"Unable to send email to external recipient",Email Issue,Medium
+
+TKT016,"Laptop is running extremely slowly",System Performance,Medium
+TKT017,"Computer freezes frequently during normal work",System Performance,High
+TKT018,"System performance has become very slow after update",System Performance,Medium
+TKT019,"Applications take too long to open",System Performance,Low
+TKT020,"Laptop becomes unresponsive when multiple applications are running",System Performance,High
+
+TKT021,"Unable to connect laptop to office WiFi",Network Connectivity,High
+TKT022,"Internet connection is not available on workstation",Network Connectivity,High
+TKT023,"Office WiFi keeps disconnecting",Network Connectivity,Medium
+TKT024,"Network connection is very slow",Network Connectivity,Medium
+TKT025,"Computer cannot access internal network",Network Connectivity,High
+
+TKT026,"Printer is not responding to print requests",Printer Issue,Medium
+TKT027,"Unable to print documents from office laptop",Printer Issue,Medium
+TKT028,"Network printer cannot be found",Printer Issue,High
+TKT029,"Printer shows offline status",Printer Issue,Medium
+TKT030,"Print jobs are stuck in the queue",Printer Issue,Medium
+
+TKT031,"User cannot access shared network drive",File Access,High
+TKT032,"Permission denied when opening shared folder",File Access,High
+TKT033,"Network drive disappeared from computer",File Access,Medium
+TKT034,"Unable to open company shared files",File Access,High
+TKT035,"Access to shared folder is denied",File Access,High
+
+TKT036,"Employee needs access to HR application",Application Access,Medium
+TKT037,"User cannot login to internal application",Application Access,High
+TKT038,"Application access request is pending",Application Access,Low
+TKT039,"User receives unauthorized access error",Application Access,High
+TKT040,"Company application is not accessible",Application Access,High
+
+TKT041,"Microsoft Teams is not opening",Software Issue,Medium
+TKT042,"Teams application crashes during startup",Software Issue,Medium
+TKT043,"Software application freezes frequently",Software Issue,Medium
+TKT044,"Application stopped working after recent update",Software Issue,High
+TKT045,"Unable to launch required desktop application",Software Issue,High
+
+TKT046,"Employee laptop is showing a blue screen",Hardware Issue,High
+TKT047,"Laptop does not power on",Hardware Issue,Critical
+TKT048,"Computer keyboard is not working",Hardware Issue,Medium
+TKT049,"Laptop screen is flickering",Hardware Issue,High
+TKT050,"Mouse is not responding",Hardware Issue,Low
+
+TKT051,"Suspicious login detected on employee account",Security Alert,Critical
+TKT052,"User received suspicious phishing email",Security Alert,Critical
+TKT053,"Possible malware detected on workstation",Security Alert,Critical
+TKT054,"Employee clicked a suspicious email link",Security Alert,Critical
+TKT055,"Unknown login activity detected",Security Alert,Critical
+
+TKT056,"Server is responding very slowly",Server Performance,High
+TKT057,"Application server CPU utilization is extremely high",Server Performance,Critical
+TKT058,"Server memory usage has reached critical level",Server Performance,Critical
+TKT059,"Production server performance is degraded",Server Performance,High
+TKT060,"Server response time has increased significantly",Server Performance,High
+
+TKT061,"Database connection failed for application",Database Issue,Critical
+TKT062,"Unable to connect to production database",Database Issue,Critical
+TKT063,"Database queries are taking too long",Database Issue,High
+TKT064,"Application reports database timeout error",Database Issue,High
+TKT065,"Database service is unavailable",Database Issue,Critical
+
+TKT066,"User account is locked after multiple failed login attempts",Account Lockout,High
+TKT067,"Employee cannot login because account is locked",Account Lockout,High
+TKT068,"Corporate account has been locked",Account Lockout,Medium
+TKT069,"Too many failed attempts caused account lockout",Account Lockout,Medium
+TKT070,"Unable to access account after several login attempts",Account Lockout,High
+
+TKT071,"Need to install approved software on laptop",Software Installation,Low
+TKT072,"Requesting installation of Python on workstation",Software Installation,Low
+TKT073,"New application needs to be installed",Software Installation,Low
+TKT074,"Software installation failed",Software Installation,Medium
+TKT075,"Unable to install required application",Software Installation,Medium
+
+TKT076,"Employee cannot access company website",Web Access,Medium
+TKT077,"Internal web portal is not loading",Web Access,High
+TKT078,"Browser displays connection refused error",Web Access,High
+TKT079,"Corporate website is unavailable",Web Access,High
+TKT080,"Web application keeps timing out",Web Access,High
+
+TKT081,"Need new employee laptop setup",Hardware Request,Low
+TKT082,"Requesting replacement laptop",Hardware Request,Medium
+TKT083,"New workstation needs to be configured",Hardware Request,Low
+TKT084,"Employee needs an additional monitor",Hardware Request,Low
+TKT085,"Request for replacement keyboard and mouse",Hardware Request,Low
+
+TKT086,"Need access to company Git repository",Developer Access,Medium
+TKT087,"Developer cannot access Git repository",Developer Access,High
+TKT088,"Git authentication is failing",Developer Access,High
+TKT089,"Permission denied while pushing code",Developer Access,High
+TKT090,"Unable to clone private repository",Developer Access,High
+
+TKT091,"Backup job failed overnight",Backup Failure,Critical
+TKT092,"System backup did not complete successfully",Backup Failure,Critical
+TKT093,"Backup process stopped with an error",Backup Failure,High
+TKT094,"Database backup failed",Backup Failure,Critical
+TKT095,"Scheduled backup is not running",Backup Failure,High
+
+TKT096,"Disk space on server is almost full",Storage Issue,High
+TKT097,"Laptop storage is running out",Storage Issue,Medium
+TKT098,"Server disk usage reached 95 percent",Storage Issue,Critical
+TKT099,"Unable to save files because disk is full",Storage Issue,High
+TKT100,"Storage capacity alert received",Storage Issue,Medium
